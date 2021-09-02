@@ -5,7 +5,7 @@
 
 In the project directory, you can run:
 
-### `npm i`
+### `npm install`
 Install all the dependencies in package.json
 
 ### `npm start`
