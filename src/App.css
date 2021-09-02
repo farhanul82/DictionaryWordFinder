@@ -1,0 +1,177 @@
+
+
+/* Headers */
+
+.nav{
+
+  background: black;
+  margin: auto;
+}
+
+.nav .navLink {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  line-height: 50px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  text-align: center;
+}
+
+
+
+.nav .animation {
+  position: absolute;
+  height: 90%;
+
+  top: 4px;
+  z-index: 0;
+  background: #1abc9c;
+  border-radius: 8px;
+  transition: all 0.5s ease 0s;
+}
+
+
+
+.brand {
+  font-family: "Dancing Script", cursive;
+  color: wheat;
+  font-size: 30px;
+}
+
+.nav .navLink1 {
+  width: 95px;
+}
+
+.navLink1:hover ~ .animation {
+  width: 100px;
+  left: 570px;
+}
+nav .navLink2 {
+  width: 115px;
+}
+nav .navLink2:hover ~ .animation {
+  width: 117px;
+  left: 672px;
+}
+
+
+
+/* Search Word Form */
+.searchWordForm{
+  width: 350px;
+  display: flex;
+}
+
+.searchWordForm input{
+  box-shadow: 1px 2px 6px black;
+}
+
+.searchBtn{
+  background: BLACK;
+  border: 0px;
+  margin-left: 25px;
+}
+
+
+/* Search card  */
+
+.searchWordCard{
+  box-shadow: 1px 2px 6px black;
+  margin-top: 20px;
+  border: 1px solid;
+}
+
+.cardImgBox img{
+  width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+    margin-left: 90px;
+
+}
+
+.wordDefinition{
+  font-weight: 500;
+  color: blue;
+}
+
+.wordExample{
+  font-weight: 500;
+    color: gray;
+}
+.addFavouriteBtn{
+  background: #00753f;
+  border: 0px;
+  margin-left: 75px;
+}
+
+.addFavouriteBtn:hover{
+  background: yellow;
+  color: black;
+}
+
+
+
+
+
+/* Favourite Word card  */
+
+.favWordCard{
+  box-shadow: 1px 2px 5px black;
+}
+
+.favWordCardBody{
+
+  height: 288px;
+  overflow: auto;
+  padding-top: 0px;
+
+}
+
+.deleteBtn{
+  background: transparent;
+    border: 0px;
+}
+
+
+.nameSection{
+  display: flex;
+  margin: auto;
+}
+
+.wordName{
+  font-size: 28px;
+    font-weight: 600;
+    color: darkcyan;
+    margin-top: 18px;
+}
+
+.favWordImg{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+.selectInput{
+  margin-top: 18px;
+}
+
+.selectInput select{
+  
+  box-shadow: 1px 2px 5px black;
+  margin-left: 10px;
+
+}

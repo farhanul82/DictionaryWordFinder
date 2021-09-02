@@ -1,0 +1,3 @@
+export const FETCH_WORD = 'FETCH_WORD'
+
+export const GET_FAVORITE_WORD = 'GET_FAVORITE_WORD'
